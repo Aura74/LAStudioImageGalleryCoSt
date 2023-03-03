@@ -91,3 +91,37 @@ body {
   padding-bottom: 8px;
   margin-top: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .imgGalleryCard {
+    width: 100%;
+  }
+
+  .aboutTextSelection {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .imgGalleryCard {
+    padding: 0;
+  }
+  .imgGallery {
+    padding: 5px;
+    max-height: 300px;
+  }
+
+  .aboutTextSelection {
+    margin: 0px auto 100px auto;
+    font-size: 5px;
+    min-width: 450px;
+  }
+
+  #litenText {
+    font-size: 16px;
+  }
+
+  .litenRubrik {
+    font-size: 24px;
+  }
+}
